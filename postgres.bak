@@ -58,9 +58,9 @@ ALTER TABLE public.metadata OWNER TO postgres;
 --
 
 COPY public.metadata (acp_id, info) FROM stdin;
-avatar-test-001	{"ts": "1585138617", "type": "smartplug", "owner": "rv355", "location": {"x": "2131.33", "y": "53272.22", "z": "1", "system": "WGB"}}
-aoycocr-test-001	{"ts": "1585138617", "type": "smartplug", "owner": "jb2328", "location": {"x": "2654.33", "y": "53432.22", "z": "1", "system": "WGB"}}
-gosund-test-001	{"ts": "1585138617", "type": "smartplug", "owner": "mrd45", "location": {"x": "2664.33", "y": "53432.22", "z": "1", "system": "WGB"}}
+avatar-test-001	{"acp_ts": "1585138617", "type": "smartplug", "owner": "rv355", "location": {"x": "2131.33", "y": "53272.22", "z": "1", "system": "WGB"}}
+aoycocr-test-001	{"acp_ts": "1585138617", "type": "smartplug", "owner": "jb2328", "location": {"x": "2654.33", "y": "53432.22", "z": "1", "system": "WGB"}}
+gosund-test-001	{"acp_ts": "1585138617", "type": "smartplug", "owner": "mrd45", "location": {"x": "2664.33", "y": "53432.22", "z": "1", "system": "WGB"}}
 \.
 
 
